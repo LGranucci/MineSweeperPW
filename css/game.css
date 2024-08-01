@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d3d3d3;
+    width: 100%;
+    margin: 0px;
+}
+
+#board {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: black;
+    width: fit-content;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+   
+    
+    background-color: #a6a6a6;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.cell.hidden {
+    /*background-color: #a6a6a6;*/
+    background-color: #7f7f7f;
+    border: 1px solid black;
+}
+.cell.scoperta{
+    border: 1px solid #555454;
+    border-radius: 0px;
+}
+
+#messaggio{
+    margin-bottom: 0px;
+    
+}
+.cell.flagged {
+    background-size: cover;
+    background-image: url(../img/bandiera.png);
+   
+}
+.cell.mine {
+    background-color: red;
+    background-size: cover;
+    background-image: url(../img/Minesweeper_1992.webp);
+}
+
+#timer {
+    margin-top: 10px;
+    margin-right: 1em;
+}
+#bottone{
+    margin: 1em;
+    
+}
+#statusBar>span{
+    border: 1px dotted black;
+    padding: 0.5em;
+}
+button{
+    font-weight: bolder;
+    padding: 0.5em;
+}
+
+
+body{
+    width: 100%;
+    margin: 0px;
+}
+#board {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: black;
+}
+#statusBar{
+    margin-top: 2em;
+}
+#statusBar>span{
+    border: 1px dotted black;
+    padding: 0.5em;
+}
+main button{
+    font-weight: bolder;
+    padding: 0.5em;
+}

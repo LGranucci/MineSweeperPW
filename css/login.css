@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+#linkBox{
+    margin-top: 1em;
+    font-size: small;
+    display: grid;
+    gap: 10px;
+}    
+#erroreReg{
+    color: red;
+    font-size: 14px;
+}
+.requisiti{
+    text-align:left;
+    font-size: 10px;
+    padding-left: 15px;
+}
+.errore{
+    color:red;
+    font-size: 10px;
+    
+}
